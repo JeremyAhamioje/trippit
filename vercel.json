@@ -1,0 +1,10 @@
+﻿{
+  "framework": "nextjs",
+  "buildCommand": "npm run build",
+  "installCommand": "npm install",
+  "env": {
+    "GEMINI_API_KEY": "@gemini_api_key",
+    "GEMINI_MODEL_ID": "@gemini_model_id",
+    "GOOGLE_CLOUD_PROJECT_ID": "@google_cloud_project_id"
+  }
+}

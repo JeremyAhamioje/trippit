@@ -1,0 +1,442 @@
+{
+  "placeholderImages": [
+    {
+      "id": "italy_hero",
+      "description": "Colosseum in Rome, Italy",
+      "imageUrl": "https://images.unsplash.com/photo-1698225502856-8916e32a2a62?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxpdGFseSUyMGNvbG9zc2V1bXxlbnwwfHx8fDE3NTkyNjgxOTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "italy colosseum"
+    },
+    {
+      "id": "japan_hero",
+      "description": "Fushimi Inari Shrine in Kyoto, Japan",
+      "imageUrl": "https://images.unsplash.com/photo-1688616135774-1cf711de556a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxqYXBhbiUyMHNocmluZXxlbnwwfHx8fDE3NTkyNjgxOTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "japan shrine"
+    },
+    {
+      "id": "egypt_hero",
+      "description": "Pyramids of Giza, Egypt",
+      "imageUrl": "https://images.unsplash.com/photo-1544815521-80841127c00f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxlZ3lwdCUyMHB5cmFtaWRzfGVufDB8fHx8MTc1OTI2ODE5MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "egypt pyramids"
+    },
+    {
+      "id": "brazil_hero",
+      "description": "Christ the Redeemer in Rio de Janeiro, Brazil",
+      "imageUrl": "https://images.unsplash.com/photo-1683331404237-64c763c70f5b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxicmF6aWwlMjBzdGF0dWV8ZW58MHx8fHwxNzU5MjY4MTkwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "brazil statue"
+    },
+    {
+      "id": "australia_hero",
+      "description": "Sydney Opera House, Australia",
+      "imageUrl": "https://images.unsplash.com/photo-1549180030-48bf079fb38a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxhdXN0cmFsaWElMjBzeWRuZXl8ZW58MHx8fHwxNzU5MjY4MTkwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "australia sydney"
+    },
+    {
+      "id": "usa_hero",
+      "description": "Statue of Liberty in New York, USA",
+      "imageUrl": "https://images.unsplash.com/photo-1558898478-91e19f323a22?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx1c2ElMjBsaWJlcnR5fGVufDB8fHx8MTc1OTI2ODE5MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "usa liberty"
+    },
+    {
+      "id": "france_hero",
+      "description": "Eiffel Tower in Paris, France",
+      "imageUrl": "https://images.unsplash.com/photo-1730993175478-b634849f6536?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxmcmFuY2UlMjBlaWZmZWx8ZW58MHx8fHwxNzU5MjY4MTkwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "france eiffel"
+    },
+    {
+      "id": "china_hero",
+      "description": "Great Wall of China",
+      "imageUrl": "https://images.unsplash.com/photo-1558981012-236ee58eb5c9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjaGluYSUyMHdhbGx8ZW58MHx8fHwxNzU5MjY4MTkwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "china wall"
+    },
+    {
+      "id": "india_hero",
+      "description": "Taj Mahal in Agra, India",
+      "imageUrl": "https://images.unsplash.com/photo-1658741617728-d1b5266c3ddd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxpbmRpYSUyMHRham1haGFsfGVufDB8fHx8MTc1OTI2ODE5MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "india tajmahal"
+    },
+    {
+      "id": "peru_hero",
+      "description": "Machu Picchu in Peru",
+      "imageUrl": "https://images.unsplash.com/photo-1728306903184-18d420f9a4d8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxwZXJ1JTIwbWFjaHVwaWNjaHV8ZW58MHx8fHwxNzU5MjY4MTkwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "peru machupicchu"
+    },
+    {
+      "id": "greece_hero",
+      "description": "Santorini, Greece",
+      "imageUrl": "https://images.unsplash.com/photo-1543698764-7e1866e994d9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxncmVlY2UlMjBzYW50b3Jpbml8ZW58MHx8fHwxNzY0NDk4OTUwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "greece santorini"
+    },
+    {
+      "id": "canada_hero",
+      "description": "Moraine Lake in Banff National Park, Canada",
+      "imageUrl": "https://images.unsplash.com/photo-1722524270207-c07d441a859d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Y2FuYWRhJTIwYmFuZmZ8ZW58MHx8fHwxNzY0NTIyMzM1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "canada banff"
+    },
+    {
+      "id": "planner_hero",
+      "description": "A person looking at a map",
+      "imageUrl": "https://images.unsplash.com/photo-1499591934245-40b55745b905?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHx0cmF2ZWwlMjBwbGFubmluZ3xlbnwwfHx8fDE3NTkxNDk1NzB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "travel planning"
+    },
+    {
+      "id": "colosseum_detail",
+      "description": "The Colosseum at dusk",
+      "imageUrl": "https://images.unsplash.com/photo-1694724892682-cd4c1f429e0f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxjb2xvc3NldW0lMjBkdXNrfGVufDB8fHx8MTc2NDUyMjMzNXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "colosseum dusk"
+    },
+    {
+      "id": "venice_detail",
+      "description": "A gondola in a Venice canal",
+      "imageUrl": "https://images.unsplash.com/photo-1546441758-a678df1d3138?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHx2ZW5pY2UlMjBnb25kb2xhfGVufDB8fHx8MTc2NDQ5ODk1MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "venice gondola"
+    },
+    {
+      "id": "pisa_detail",
+      "description": "The Leaning Tower of Pisa",
+      "imageUrl": "https://images.unsplash.com/photo-1626252043332-23d2cf5d0aa9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwaXNhJTIwdG93ZXJ8ZW58MHx8fHwxNzY0NTIyMzM1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "pisa tower"
+    },
+    {
+      "id": "fushimi_inari_detail",
+      "description": "Torii gates at Fushimi Inari Shrine",
+      "imageUrl": "https://images.unsplash.com/photo-1736730174116-42e636a1b4c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxzaHJpbmUlMjBnYXRlc3xlbnwwfHx8fDE3NjQ1MjIzMzV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "shrine gates"
+    },
+    {
+      "id": "tokyo_skytree_detail",
+      "description": "The Tokyo Skytree against the city skyline",
+      "imageUrl": "https://images.unsplash.com/photo-1619764611739-39f17a663b11?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHx0b2t5byUyMHNreWxpbmV8ZW58MHx8fHwxNzY0NTIyMzM1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "tokyo skyline"
+    },
+    {
+      "id": "golden_pavilion_detail",
+      "description": "The Golden Pavilion reflecting in the water",
+      "imageUrl": "https://images.unsplash.com/photo-1651569213732-2251882a6c96?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHx0ZW1wbGUlMjByZWZsZWN0aW9ufGVufDB8fHx8MTc2NDUyMjMzNXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "temple reflection"
+    },
+    {
+      "id": "pyramids_detail",
+      "description": "The great pyramids of Giza",
+      "imageUrl": "https://images.unsplash.com/photo-1525604529863-915380184a43?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxnaXphJTIwcHlyYW1pZHN8ZW58MHx8fHwxNzY0NTIyMzM1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "giza pyramids"
+    },
+    {
+      "id": "karnak_detail",
+      "description": "The Karnak temple complex",
+      "imageUrl": "https://images.unsplash.com/photo-1643806294235-3ee68b3bc9d2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8a2FybmFrJTIwdGVtcGxlfGVufDB8fHx8MTc2NDUyMjMzNXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "karnak temple"
+    },
+    {
+      "id": "valley_kings_detail",
+      "description": "The Valley of the Kings",
+      "imageUrl": "https://images.unsplash.com/photo-1643271150254-551973b35e7a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHx2YWxsZXklMjBraW5nc3xlbnwwfHx8fDE3NjQ1MjIzMzV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "valley kings"
+    },
+    {
+      "id": "christ_redeemer_detail",
+      "description": "Christ the Redeemer statue",
+      "imageUrl": "https://images.unsplash.com/photo-1747049061948-c7ad486d9bdb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxyZWRlZW1lciUyMHN0YXR1ZXxlbnwwfHx8fDE3NjQ1MjIzMzV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "redeemer statue"
+    },
+    {
+      "id": "iguazu_detail",
+      "description": "The Iguazu Falls",
+      "imageUrl": "https://images.unsplash.com/photo-1501072507980-6c49c465932f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxpZ3VhenUlMjBmYWxsc3xlbnwwfHx8fDE3NjQ1MjIzMzV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "iguazu falls"
+    },
+    {
+      "id": "amazon_detail",
+      "description": "The Amazon Rainforest",
+      "imageUrl": "https://images.unsplash.com/photo-1610457379304-c1be61eba3d7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8YW1hem9uJTIwcmFpbmZvcmVzdHxlbnwwfHx8fDE3NjQ1MjIzMzV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "amazon rainforest"
+    },
+    {
+      "id": "sydney_opera_house_detail",
+      "description": "The Sydney Opera House",
+      "imageUrl": "https://images.unsplash.com/photo-1540448051910-09cfadd5df61?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxzeWRuZXklMjBvcGVyYXxlbnwwfHx8fDE3NjQ0Njg3NDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "sydney opera"
+    },
+    {
+      "id": "uluru_detail",
+      "description": "Uluru at sunset",
+      "imageUrl": "https://images.unsplash.com/photo-1654692870756-ea1ebcb8be1d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHx1bHVydSUyMHN1bnNldHxlbnwwfHx8fDE3NjQ1MjIzMzV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "uluru sunset"
+    },
+    {
+      "id": "great_barrier_reef_detail",
+      "description": "The Great Barrier Reef",
+      "imageUrl": "https://images.unsplash.com/photo-1659455453923-9a72ed52dbca?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxiYXJyaWVyJTIwcmVlZnxlbnwwfHx8fDE3NjQ1MjIzMzV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "barrier reef"
+    },
+    {
+      "id": "statue_of_liberty_detail",
+      "description": "The Statue of Liberty",
+      "imageUrl": "https://images.unsplash.com/photo-1550663269-f2b0bc5b09f9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxzdGF0dWUlMjBsaWJlcnR5fGVufDB8fHx8MTc2NDUyMjMzNXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "statue liberty"
+    },
+    {
+      "id": "grand_canyon_detail",
+      "description": "The Grand Canyon",
+      "imageUrl": "https://images.unsplash.com/photo-1578249949606-334a0dd4dd8b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Z3JhbmQlMjBjYW55b258ZW58MHx8fHwxNzY0NTIyMzM1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "grand canyon"
+    },
+    {
+      "id": "golden_gate_bridge_detail",
+      "description": "The Golden Gate Bridge",
+      "imageUrl": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxnb2xkZW4lMjBnYXRlfGVufDB8fHx8MTc2NDQyNzM2OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "golden gate"
+    },
+    {
+      "id": "eiffel_tower_detail",
+      "description": "The Eiffel Tower",
+      "imageUrl": "https://images.unsplash.com/photo-1565881606991-789a8dff9dbb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxlaWZmZWwlMjB0b3dlcnxlbnwwfHx8fDE3NjQ1MjIzMzZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "eiffel tower"
+    },
+    {
+      "id": "louvre_detail",
+      "description": "The Louvre Museum",
+      "imageUrl": "https://images.unsplash.com/photo-1567942585146-33d62b775db0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxsb3V2cmUlMjBtdXNldW18ZW58MHx8fHwxNzY0NDQ5OTk0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "louvre museum"
+    },
+    {
+      "id": "mont_saint_michel_detail",
+      "description": "Mont Saint-Michel",
+      "imageUrl": "https://images.unsplash.com/photo-1666790367572-5a371d7a8c19?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxtb250JTIwbWljaGVsfGVufDB8fHx8MTc2NDUyMjMzNXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "mont michel"
+    },
+    {
+      "id": "great_wall_detail",
+      "description": "The Great Wall of China",
+      "imageUrl": "https://images.unsplash.com/photo-1583317094917-8aac805fed5a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxncmVhdCUyMHdhbGx8ZW58MHx8fHwxNzY0NDQzMzEzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "great wall"
+    },
+    {
+      "id": "terracotta_army_detail",
+      "description": "The Terracotta Army",
+      "imageUrl": "https://images.unsplash.com/photo-1527922891260-918d42a4efc8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx0ZXJyYWNvdHRhJTIwYXJteXxlbnwwfHx8fDE3NjQ1MjIzMzV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "terracotta army"
+    },
+    {
+      "id": "bund_shanghai_detail",
+      "description": "The Bund in Shanghai",
+      "imageUrl": "https://images.unsplash.com/photo-1545893835-abaa50cbe628?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxzaGFuZ2hhaSUyMGJ1bmR8ZW58MHx8fHwxNzY0NTIyMzM1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "shanghai bund"
+    },
+    {
+      "id": "taj_mahal_detail",
+      "description": "The Taj Mahal",
+      "imageUrl": "https://images.unsplash.com/photo-1592635196078-9fdc757f27f4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHx0YWolMjBtYWhhbHxlbnwwfHx8fDE3NjQ1MjIzMzV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "taj mahal"
+    },
+    {
+      "id": "varanasi_ghats_detail",
+      "description": "The Ghats of Varanasi",
+      "imageUrl": "https://images.unsplash.com/photo-1678182997326-9caec54faa03?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx2YXJhbmFzaSUyMGdoYXRzfGVufDB8fHx8MTc2NDQ4ODE3MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "varanasi ghats"
+    },
+    {
+      "id": "amber_fort_detail",
+      "description": "The Amber Fort",
+      "imageUrl": "https://images.unsplash.com/photo-1599661046289-e31897846e41?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhbWJlciUyMGZvcnR8ZW58MHx8fHwxNzY0NTIyMzM1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "amber fort"
+    },
+    {
+      "id": "machu_picchu_detail",
+      "description": "Machu Picchu",
+      "imageUrl": "https://images.unsplash.com/photo-1543385426-191664295b58?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxtYWNodSUyMHBpY2NodXxlbnwwfHx8fDE3NjQ0Mjg0MjJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "machu picchu"
+    },
+    {
+      "id": "nazca_lines_detail",
+      "description": "The Nazca Lines",
+      "imageUrl": "https://images.unsplash.com/photo-1602839993317-7b77dff450d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxuYXpjYSUyMGxpbmVzfGVufDB8fHx8MTc2NDUyMjMzNXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "nazca lines"
+    },
+    {
+      "id": "lake_titicaca_detail",
+      "description": "Lake Titicaca",
+      "imageUrl": "https://images.unsplash.com/photo-1544144554-41d909fadcf3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxsYWtlJTIwdGl0aWNhY2F8ZW58MHx8fHwxNzY0NTIyMzM1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "lake titicaca"
+    },
+    {
+      "id": "acropolis_detail",
+      "description": "The Acropolis of Athens",
+      "imageUrl": "https://images.unsplash.com/photo-1669706341369-1e40498d2e40?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxhY3JvcG9saXMlMjBhdGhlbnN8ZW58MHx8fHwxNzY0NTIyMzM1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "acropolis athens"
+    },
+    {
+      "id": "santorini_detail",
+      "description": "The island of Santorini",
+      "imageUrl": "https://images.unsplash.com/photo-1688835338833-45edca55200b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxzYW50b3JpbmklMjBpc2xhbmR8ZW58MHx8fHwxNzY0NTIyMzM1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "santorini island"
+    },
+    {
+      "id": "meteora_detail",
+      "description": "The monasteries of Meteora",
+      "imageUrl": "https://images.unsplash.com/photo-1687957324345-918d2f824f06?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtZXRlb3JhJTIwbW9uYXN0ZXJpZXN8ZW58MHx8fHwxNzY0NTIyMzM1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "meteora monasteries"
+    },
+    {
+      "id": "cn_tower_detail",
+      "description": "The CN Tower in Toronto",
+      "imageUrl": "https://images.unsplash.com/photo-1521505088417-bfc5a507f901?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjbiUyMHRvd2VyfGVufDB8fHx8MTc2NDUyMjMzNXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cn tower"
+    },
+    {
+      "id": "banff_detail",
+      "description": "Banff National Park",
+      "imageUrl": "https://images.unsplash.com/photo-1633553193624-43b453873e65?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxiYW5mZiUyMHBhcmt8ZW58MHx8fHwxNzY0NTIyMzM1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "banff park"
+    },
+    {
+      "id": "niagara_falls_detail",
+      "description": "Niagara Falls",
+      "imageUrl": "https://images.unsplash.com/photo-1598402453861-4fbcbf6ced3b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxuaWFnYXJhJTIwZmFsbHN8ZW58MHx8fHwxNzY0NTIyMzM1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "niagara falls"
+    },
+    {
+      "id": "italy_history",
+      "description": "Roman Forum ruins in Italy",
+      "imageUrl": "https://images.unsplash.com/photo-1649754242327-2d7a73668fb5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8cm9tYW4lMjBmb3J1bXxlbnwwfHx8fDE3NjQ0OTYzNDl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "roman forum"
+    },
+    {
+      "id": "italy_travel",
+      "description": "A plate of Italian pasta",
+      "imageUrl": "https://images.unsplash.com/photo-1498579150354-977475b7ea0b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxpdGFsaWFuJTIwZm9vZHxlbnwwfHx8fDE3NjQ1MjAzMDF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "italian food"
+    },
+    {
+      "id": "japan_history",
+      "description": "Himeji Castle in Japan",
+      "imageUrl": "https://images.unsplash.com/photo-1694945080807-6c0adb216a03?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8amFwYW5lc2UlMjBjYXN0bGV8ZW58MHx8fHwxNzY0NTIyMzM1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "japanese castle"
+    },
+    {
+      "id": "japan_travel",
+      "description": "A person enjoying sushi in Japan",
+      "imageUrl": "https://images.unsplash.com/photo-1502364271109-0a9a75a2a9df?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxqYXBhbiUyMHN1c2hpfGVufDB8fHx8MTc2NDUyMjMzNXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "japan sushi"
+    },
+    {
+      "id": "egypt_history",
+      "description": "Ancient hieroglyphs in an Egyptian temple",
+      "imageUrl": "https://images.unsplash.com/photo-1728242410792-5559cb70def0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxlZ3lwdCUyMGhpZXJvZ2x5cGhzfGVufDB8fHx8MTc2NDUyMjMzNXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "egypt hieroglyphs"
+    },
+    {
+      "id": "egypt_travel",
+      "description": "A boat sailing on the Nile river",
+      "imageUrl": "https://images.unsplash.com/photo-1684100096410-fd39cdff91a3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxuaWxlJTIwcml2ZXJ8ZW58MHx8fHwxNzY0NDU4OTc3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "nile river"
+    },
+    {
+      "id": "brazil_history",
+      "description": "Colonial architecture in Salvador, Brazil",
+      "imageUrl": "https://images.unsplash.com/photo-1674138505028-4c95c5b3a729?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxicmF6aWwlMjBhcmNoaXRlY3R1cmV8ZW58MHx8fHwxNzY0NTIyMzM1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "brazil architecture"
+    },
+    {
+      "id": "brazil_travel",
+      "description": "A colorful street during Carnival in Brazil",
+      "imageUrl": "https://images.unsplash.com/photo-1560458386-df616c1a8b54?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxicmF6aWwlMjBjYXJuaXZhbHxlbnwwfHx8fDE3NjQ1MjIzMzV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "brazil carnival"
+    },
+    {
+      "id": "australia_history",
+      "description": "Aboriginal rock art in Australia",
+      "imageUrl": "https://images.unsplash.com/photo-1691131417338-a29eb7fbd317?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxhYm9yaWdpbmFsJTIwYXJ0fGVufDB8fHx8MTc2NDUyMjMzNnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "aboriginal art"
+    },
+    {
+      "id": "australia_travel",
+      "description": "A kangaroo on a beach in Australia",
+      "imageUrl": "https://images.unsplash.com/photo-1566743192481-213ea58a6127?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxrYW5nYXJvbyUyMGJlYWNofGVufDB8fHx8MTc2NDUyMjMzNnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "kangaroo beach"
+    },
+    {
+      "id": "usa_history",
+      "description": "Independence Hall in Philadelphia",
+      "imageUrl": "https://images.unsplash.com/photo-1649037095205-99598c4a4b6b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxpbmRlcGVuZGVuY2UlMjBoYWxsfGVufDB8fHx8MTc2NDUyMjMzNXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "independence hall"
+    },
+    {
+      "id": "usa_travel",
+      "description": "A classic American diner on Route 66",
+      "imageUrl": "https://images.unsplash.com/photo-1570630819727-b32fda434a7a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxyb3V0ZSUyMDY2fGVufDB8fHx8MTc2NDUyMjMzNXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "route 66"
+    },
+    {
+      "id": "france_history",
+      "description": "The Palace of Versailles",
+      "imageUrl": "https://images.unsplash.com/photo-1591828353335-197466da2a4e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHx2ZXJzYWlsbGVzJTIwcGFsYWNlfGVufDB8fHx8MTc2NDUyMjMzNXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "versailles palace"
+    },
+    {
+      "id": "france_travel",
+      "description": "A person enjoying a croissant and coffee in a Parisian cafe",
+      "imageUrl": "https://images.unsplash.com/photo-1671485429799-249e8acb2ee6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxwYXJpcyUyMGNhZmV8ZW58MHx8fHwxNzY0NDYxNDMxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "paris cafe"
+    },
+    {
+      "id": "china_history",
+      "description": "The Forbidden City in Beijing",
+      "imageUrl": "https://images.unsplash.com/photo-1551101449-4a73cb813ff0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxmb3JiaWRkZW4lMjBjaXR5fGVufDB8fHx8MTc2NDUyMjMzNXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "forbidden city"
+    },
+    {
+      "id": "china_travel",
+      "description": "A table with various dim sum dishes",
+      "imageUrl": "https://images.unsplash.com/photo-1559667709-eabb5b50117a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxkaW0lMjBzdW18ZW58MHx8fHwxNzY0NTIyMzM1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "dim sum"
+    },
+    {
+      "id": "india_history",
+      "description": "Ancient carvings at the Ellora Caves",
+      "imageUrl": "https://images.unsplash.com/photo-1631774933370-d596a344e851?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxlbGxvcmElMjBjYXZlc3xlbnwwfHx8fDE3NjQ1MjIzMzV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "ellora caves"
+    },
+    {
+      "id": "india_travel",
+      "description": "A colorful market in India",
+      "imageUrl": "https://images.unsplash.com/photo-1589820745206-c6b6d3602361?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxpbmRpYW4lMjBtYXJrZXR8ZW58MHx8fHwxNzY0NTA1MjU4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "indian market"
+    },
+    {
+      "id": "peru_history",
+      "description": "Inca stonework in Cusco",
+      "imageUrl": "https://images.unsplash.com/photo-1585802108917-84ec085f9ed8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxpbmNhJTIwd2FsbHxlbnwwfHx8fDE3NjQ1MjIzMzV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "inca wall"
+    },
+    {
+      "id": "peru_travel",
+      "description": "A person enjoying ceviche in Lima",
+      "imageUrl": "https://images.unsplash.com/photo-1458917524587-d3236cc8c2c8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxwZXJ1dmlhbiUyMGZvb2R8ZW58MHx8fHwxNzY0NDUyMDEyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "peruvian food"
+    },
+    {
+      "id": "greece_history",
+      "description": "Ruins of the Parthenon in Athens",
+      "imageUrl": "https://images.unsplash.com/photo-1763567764933-898877f97d00?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxwYXJ0aGVub24lMjBydWluc3xlbnwwfHx8fDE3NjQ1MjIzMzV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "parthenon ruins"
+    },
+    {
+      "id": "greece_travel",
+      "description": "A table with Greek salad and souvlaki overlooking the sea",
+      "imageUrl": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxncmVlayUyMGZvb2R8ZW58MHx8fHwxNzY0NTIyMzM1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "greek food"
+    },
+    {
+      "id": "canada_history",
+      "description": "The historic district of Old Quebec City",
+      "imageUrl": "https://images.unsplash.com/photo-1576771304215-6d4d30f7bb63?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxxdWViZWMlMjBjaXR5fGVufDB8fHx8MTc2NDUyMjMzNXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "quebec city"
+    },
+    {
+      "id": "canada_travel",
+      "description": "A bottle of maple syrup with pancakes",
+      "imageUrl": "https://images.unsplash.com/photo-1552314971-d2feb3513949?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxtYXBsZSUyMHN5cnVwfGVufDB8fHx8MTc2NDUyMjMzNXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "maple syrup"
+    }
+  ]
+}
